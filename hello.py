@@ -13,11 +13,6 @@ def calculator():
             multiplication(first_number, second_number)
 
 
-print("You quit.")
-
-calculator()
-
-
 def sum_of_numbers(x, y):
     return x = y
 
