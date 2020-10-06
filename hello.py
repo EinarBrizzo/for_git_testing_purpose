@@ -19,6 +19,10 @@ def calculator():
                 first_number, second_number))
             print("Finished.")
             break
+        elif choice_of_operation == "/":
+            print("The result is:", division(first_number, second_number))
+            print("Finished")
+            break
 
 
 print("You quit.")
@@ -34,6 +38,10 @@ def multiplication(x, y):
 
 def deduction(x, y):
     return x - y
+
+
+def division(x, y):
+    return x / y
 
 
 calculator()
