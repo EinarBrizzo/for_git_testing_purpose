@@ -1,4 +1,4 @@
-alert('hello, dude!')
+//alert('hello, dude!')
 
 function calculator(){
         userChoice = parseInt(prompt("Enter 1 to start calculating or 0 to quit"))
@@ -32,3 +32,5 @@ function deductTwonumber (x, y) {
 console.log(typeof firstNumber)
 
 calculator()
+
+
